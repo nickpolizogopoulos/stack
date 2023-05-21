@@ -1,5 +1,5 @@
 # stack
-This is a FIFO stack in JavaScript.
+This is a LIFO stack in JavaScript.
 
 We can use:
 
