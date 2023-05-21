@@ -2,7 +2,9 @@
 const _stack = new WeakMap();
 
 class Stack {
-    constructor(){_stack.set(this, []);}
+    constructor(){
+        _stack.set(this, []);
+    }
 
     add(item){
     _stack.get(this).push(item);
